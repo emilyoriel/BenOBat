@@ -9,6 +9,7 @@ document.getElementById("N").addEventListener("click", function(){
   document.getElementById("E").addEventListener("click", function(){
     var audio = new Audio('E.wav');
     audio.play();
+      alert('בת :)');
   });
 
   document.getElementById("Y").addEventListener("click", function(){
